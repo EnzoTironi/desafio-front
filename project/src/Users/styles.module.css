@@ -1,0 +1,91 @@
+.container {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.logo {
+  height: 13vmin;
+  pointer-events: none;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.form label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  align-items: baseline;
+}
+
+.form input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.form input:focus {
+  border: 1px solid #42c1c7;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-bottom: 30px;
+  outline: none;
+  box-shadow: 0 0 5px #ddd;
+}
+
+.form select {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  width: 106%;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.button {
+  margin-top: 30px;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 20px;
+  width: 60%;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: large;
+  border: #42c1c7 solid 1px;
+  align-self: center;
+}
+
+.buttonDisabled {
+  margin-top: 30px;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 20px;
+  width: 60%;
+  background-color: #393939;
+  color: #fff;
+  cursor: pointer;
+  font-size: large;
+  border: #393939 solid 1px;
+  align-self: center;
+}
