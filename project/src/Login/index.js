@@ -11,10 +11,10 @@ function Login() {
 
   const handleLogin = React.useCallback(async () => {
     try {
-      const result = await LoginService.login({
-        body: { email: email, password: password },
-      });
-
+      const result = await LoginService.login(
+         {email, password} ,
+      );
+a
       if (!result) {
         return false;
       }
