@@ -14,7 +14,6 @@ function Login() {
       const result = await LoginService.login(
          {email, password} ,
       );
-a
       if (!result) {
         return false;
       }
